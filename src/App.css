@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  background-color: #152850;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.singer-details-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 50vh;
+  background-size: cover;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 80px;
+  padding-bottom: 30px;
+}
+.singer-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 500;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.prof {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.playlists-main-container {
+  padding-left: 40px;
+  margin-right: 40px;
+  height: 38vh;
+  overflow: auto;
+}
+.playlists-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style-type: none;
+  padding-left: 0;
+}
+.playlist-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.track-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.song-cover-container {
+  height: 100px;
+  width: 135px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cover-image {
+  height: 90px;
+  width: 135px;
+}
+.track-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.track-genre {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  color: #3b82f6;
+}
+.duration-and-del-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+.duration {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.del-button {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.del-icon {
+  height: 15px;
+  width: 15px;
+}
+.search-container {
+  padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.playlist-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.search-input-container {
+  height: 28px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  display: flex;
+  width: 220px;
+}
+.input-search {
+  background-color: transparent;
+  border: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 5px;
+  outline: none;
+  width: 100%;
+}
+.search-button {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.no-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-search-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
